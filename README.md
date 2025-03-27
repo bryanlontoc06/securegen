@@ -26,14 +26,11 @@ npm install
 ## Configuration
 
 ### Environment Variables
-Create a `.env` file in the `secureGen` directory and define any necessary environment variables.
-
-### PGP Key Configuration
-Create a `config.json` file inside the `secureGen` directory with the following structure:
+Create a `.env` file inside the `secureGen` directory with the following structure:
 ```json
 {
-  "pgpPublicKeyBase64": "<Your Base64-encoded Public Key>",
-  "pgpPrivateKeyBase64": "<Your Base64-encoded Private Key>"
+  PGP_PUBLIC_KEY_BASE64: <Your Base64-encoded Public Key>,
+  PGP_PRIVATE_KEY_BASE64: <Your Base64-encoded Private Key>
 }
 ```
 
