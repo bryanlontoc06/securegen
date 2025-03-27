@@ -70,6 +70,3 @@ npm install openpgp dotenv fs
 ## License
 This project is licensed under the MIT License.
 
-## Contributing
-Feel free to fork this project and submit pull requests!
-
