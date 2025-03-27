@@ -5,7 +5,7 @@ SecureGen is a simple command-line tool for encrypting and decrypting messages u
 ## Features
 - Encrypt messages using a PGP public key
 - Decrypt messages using a PGP private key
-- Secure key storage using `config.json`
+- Secure key storage using `.env`
 
 ## Installation
 
