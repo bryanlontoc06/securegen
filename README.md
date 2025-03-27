@@ -52,15 +52,13 @@ node securegen.js decrypt "<PGP Encrypted Message>"
 ## Project Structure
 ```
 secureGen/
-│── rsaGeneration/
-│── secureGen/
-│   │── .env
-│   │── securegen.js
-│   │── .gitignore
-│   │── package.json
-│   │── package-lock.json
-│   │── README.md
-│   │── node_modules/
+│── .env
+│── securegen.js
+│── .gitignore
+│── package.json
+│── package-lock.json
+│── README.md
+│── node_modules/
 ```
 
 ## Dependencies
