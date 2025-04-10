@@ -14,7 +14,7 @@
  *
  * 1️⃣ Encrypt a message:
  *    Command:
- *      node secureGen.js encrypt "Hello, Secure World!"
+ *      node securegen.ts encrypt "Hello, Secure World!"
  *
  *    Expected Output:
  *      {
@@ -23,7 +23,7 @@
  *
  * 2️⃣ Decrypt a message:
  *    Command:
- *      node secureGen.js decrypt "-----BEGIN PGP MESSAGE-----\\ns\n\\nwy4ECQMIFd..."
+ *      node securegen.ts decrypt "-----BEGIN PGP MESSAGE-----\\ns\n\\nwy4ECQMIFd..."
  *
  *    Expected Output:
  *      {
@@ -35,10 +35,9 @@
  *     ❌ Missing PGP keys in environment variables.
  * - If an invalid command is used:
  *     Usage:
- *       node secureGen.js encrypt "<message>"
- *       node secureGen.js decrypt "<encryptedText>"
+ *       node securegen.ts encrypt "<message>"
+ *       node securegen.ts decrypt "<encryptedText>"
  */
-
 
 const openpgp = require("openpgp");
 const dotenv = require("dotenv");
